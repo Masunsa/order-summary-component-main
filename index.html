@@ -16,7 +16,11 @@
 
 <body>
   <div class="container">
-    <img src="./images/pattern-background-desktop.svg" alt="background">
+    <picture>
+      <source class="mobile-img" media="(max-width:620px)" srcset="./images/pattern-background-mobile.svg" />
+      <img src="./images/pattern-background-desktop.svg" alt="background">
+    </picture>
+
     <div class="main">
       <img class="illustration" src="./images/illustration-hero.svg" alt="singer illustration">
       <h1>Order Summary</h1>
