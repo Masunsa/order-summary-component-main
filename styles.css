@@ -1,7 +1,10 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
+.attribution{
+  position: relative;
+  margin-top: 14rem;
+}
 
 html {
   box-sizing: border-box;
@@ -36,6 +39,10 @@ h2{
 
 h3{
   font-weight: bolder;
+}
+
+h3:hover{
+  color: #9389e8;
 }
 
 p{
@@ -163,10 +170,4 @@ margin-top: 1.2rem;
 .cancel:hover{
   text-decoration: none;
   color: #354056;
-}
-
-@media (max-width: 620px){
-
-
-
 }
